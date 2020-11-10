@@ -64,7 +64,7 @@ public class Torneo {
         while(itr.hasNext() && i<3 ) 
         { 
              Map.Entry<Integer, LinkedList<Integer>> entry = itr.next(); 
-             System.out.println(i+1 + "° puesto: " + entry.getKey() +", Participantes: " + entry.getValue()); 
+             System.out.println(i+1 + "° puesto: " + entry.getKey() +" Puntos, Participantes: " + entry.getValue()); 
              i++;
         } 
 	}
